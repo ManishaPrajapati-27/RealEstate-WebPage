@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  /* fonts */
+  --sans-serif: "Poppins", sans-serif;
+  --sans-serif-alt: "Roboto Slab", serif;
+
+  /* color */
+  --primary: #f18a10;
+  --secondary: #ffc887;
+  --ternery: #071a30;
+  --light: #d8d1d1;
+  --light-alt: #ebe6e6;
+  --dark: #201f1f;
+  --dark-alt: #4d4c4c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--sans-serif);
+  overflow-x: hidden;
+  /* position: relative; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+b,
+i,
+u,
+li,
+p {
+  list-style: none;
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+  color: var(--dark-alt);
+  line-height: 20px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--primary);
+  /* font-weight: bold; */
+  font-family: var(--sans-serif-alt);
+}
+
+.buttons {
+  display: inline-block;
+  background: var(--primary);
+  font-family: var(--sans-serif);
+  border: 0;
+  color: white;
+  padding: 7px 15px;
+  font-size: 16px;
+  font-weight: 500px;
+  border-radius: 5px;
+  border: inset 10px 10px rgb(168, 160, 157);
+  transition: 0.5s ease all;
+}
+
+.section {
+  position: relative;
+  padding: 100px 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
